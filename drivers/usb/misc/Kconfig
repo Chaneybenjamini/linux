@@ -124,6 +124,16 @@ config USB_CYTHERM
 	  To compile this driver as a module, choose M here: the
 	  module will be called cytherm.
 
+config USB_CO2METER
+	tristate "co2meter CO2Mini Indoor Air Quality Monitor"
+	help
+	  Say Y here if you want to connect a USB c02meter air
+	  quality monitor. Currently the only device supported
+	  is the c02mini.
+
+	  To compile this driver as a module, choose M here: the
+          module will be called co2monitor.
+
 config USB_IDMOUSE
 	tristate "Siemens ID USB Mouse Fingerprint sensor support"
 	help
